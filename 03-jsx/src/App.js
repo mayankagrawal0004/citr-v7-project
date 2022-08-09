@@ -1,7 +1,8 @@
-import { render } from "react-dom";
-import SearchParam from "./SearchParam";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+
 import Details from "./Details";
-import { BrowserRouter,Routes,Route, Link } from "react-router-dom";
+import SearchParam from "./SearchParam";
+import { render } from "react-dom";
 
 const App = () => {
   return (
